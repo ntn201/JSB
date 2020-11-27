@@ -1,0 +1,57 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.max-width{
+    background-color: bisque;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+}
+
+.container  .max-width{
+    height: 50px;
+}
+
+
+
+
+.home{
+    height: 375px;
+    margin-top: 25px;
+    background-color: rgb(238, 106, 66);
+    padding: 25px;
+}
+
+.home .max-width {
+    height: 325px;
+    
+}
+
+.home .max-width .home-left{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+
+.home .max-width .home-right{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(216, 153, 245);
+}
+
+.home-box{
+    height: 100px;
+    width: 400px;
+    background-color: chocolate;
+}
+.home .home-right .home-box{
+
+
+}

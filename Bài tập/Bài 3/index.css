@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1000px;
+}
+
+.home-content{
+    background-color: brown;
+}
+
+/* Home styling  */
+
+.home-container{
+    background-color: tomato;
+    height: 900px;
+    font-family: 'Commissioner', sans-serif;
+    padding: 15px 0;
+}
+
+.home-container .max-width .home-content{
+    width: fit-content;
+    margin: auto;
+
+}
+
+/* các em hãy tìm cách để CSS cho home-content: khu vực màu nâu ra chính giữa khung của trang, baay giờ nó đang bị lệch sáng trái. Chú ý: không xóa/ thay đổi thuộc tính của code mẫu, em các em chỉ có thể thêm code. */
+
+

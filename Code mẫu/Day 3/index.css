@@ -1,0 +1,39 @@
+h1{
+    background-color: aquamarine;
+}
+
+span{
+    background-color: black;
+    color: aliceblue;
+}
+
+div{
+    background-color: aqua;
+}
+
+.background-red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#color-yellow{
+    color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+
+#hello{
+    margin-left: 200px;
+    text-align: right;
+}
+
+#yay{
+    float: right;
+    margin-right: 200px;
+}
+
+
+

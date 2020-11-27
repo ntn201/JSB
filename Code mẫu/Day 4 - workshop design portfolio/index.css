@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+/* navbar styling  */
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    font-family: 'Commissioner', sans-serif;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+
+/* Dung cho jquery */
+/* .navbar.sticky {
+    padding: 15px 0;
+    background: crimson;
+} */
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.navbar .logo a span {
+    color: crimson;
+}
+
+.navbar.sticky .logo a span {
+    color: white;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline;
+
+}
+
+.navbar .menu li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: crimson;
+
+}
+
+.navbar.sticky .menu li a:hover {
+    color: white;
+}
+
+/* menu button stylig */
+
+.menu-btn {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* home section styling */
+.home {
+    display: flex;
+    background: url('../images/MC_hack.JPG') no-repeat center;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.home .max-width {
+    margin: auto 0 auto 1100px;
+    padding-right: 0;
+}
+
+
+
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+    color: crimson;
+    font-weight: 500;
+}
+
+.home .home-content a{
+    display: inline-block;
+    background-color: crimson;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: solid 2px crimson;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.home .home-content a:hover{
+    background: none;
+    color: crimson;
+    border: solid 2px black;
+}
+
+/* about section  */
+.about{
+    font-family: 'Commissioner', sans-serif;
+    padding: 80px 0;
+    
+}
+
+.about .title{
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.about .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    left: 50%;
+    height: 3px;
+    background-color: black;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.about .title::after{
+    content: "Who Am I";
+    bottom: -12px;
+    left: 50%;
+    font-size: 15px;
+    position: absolute;
+    padding: 5px;
+    background-color: white;
+    color: crimson;
+    transform: translateX(-50%);
+
+}
+
+.about .about-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .left img{
+    height: 500px;
+    width: 450px;
+    object-fit: cover; /*dùng với thẻ img để tự cắt bỏ phần tử ảnh sao cho với  phù hợp kích thước ảnh bị thay đuổi ko theo chuẩn lúc đầu*/
+    border-radius: 5px ;
+}
+
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text-1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text-1 span{
+    color: crimson;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background-color: crimson;
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: solid 2px crimson;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    background: none;
+    color: crimson;
+    border: solid 2px black;
+}
