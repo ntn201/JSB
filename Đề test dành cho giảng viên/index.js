@@ -1,7 +1,7 @@
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.querySelector(".down-cv");
+var btn = document.querySelector(".playVideo");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -10,9 +10,6 @@ var span = document.getElementsByClassName("close")[0];
 
 let playVid = document.querySelector(".video")
 
-btn.onclick = function() {
-    modal.style.display = "block";
-  }
 
   // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
