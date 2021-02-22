@@ -19,12 +19,7 @@ span.onclick = function() {
     modal.style.display = "none";
   }
 
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-      playVid.allow
-    }
-  }
+  
 
 
 var close1 = document.getElementsByClassName("close1")[0];
@@ -45,7 +40,7 @@ close1.onclick = function() {
   }
 
 // ------------
-var close2 = document.getElementsByClassName("close2")[0];
+
 
 
 var modal2 = document.getElementById("myModal-2");
@@ -55,7 +50,7 @@ var btn2 = document.querySelector("#modal-2");
 
 
 btn2.onclick = function() {
-    modal2.style.display = "block";
+
   }
 
 close2.onclick = function() {
@@ -66,15 +61,12 @@ close2.onclick = function() {
 //   -------------
 var close3 = document.getElementsByClassName("close3")[0];
 
-var modal3 = document.getElementById("myModal-3");
 
 // Get the button that opens the modal
 var btn3 = document.querySelector("#modal-3");
 
 
-btn3.onclick = function() {
-    modal3.style.display = "block";
-  }
+
 
 close3.onclick = function() {
     modal3.style.display = "none";
@@ -92,9 +84,6 @@ btn4.onclick = function() {
     modal4.style.display = "block";
   }
 
-close4.onclick = function() {
-    modal4.style.display = "none";
-  }
 
 
 
